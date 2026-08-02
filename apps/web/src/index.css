@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Outfit", system-ui, sans-serif;
+
+  --color-cream: #faf6f0;
+  --color-cream-dark: #f0e8dc;
+  --color-forest: #1a3d2e;
+  --color-forest-light: #2d5a45;
+  --color-forest-dark: #0f261c;
+  --color-saffron: #e8a838;
+  --color-saffron-light: #f5c76a;
+  --color-earth: #8b6914;
+  --color-warm-brown: #5c4033;
+  --color-muted: #6b7c72;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-body text-forest antialiased;
+  }
+
+  ::selection {
+    @apply bg-saffron/30 text-forest-dark;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-forest via-forest-light to-earth bg-clip-text text-transparent;
+  }
+
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-white/40 bg-white/70 shadow-xl shadow-forest/5 backdrop-blur-md;
+  }
+}

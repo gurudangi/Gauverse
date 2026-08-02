@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cow-gauri",
+    "name": "Gauri",
+    "breed": "Gir",
+    "ageYears": 4,
+    "milkYieldLabel": "12 L/day",
+    "image": "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=600&h=700&fit=crop",
+    "traits": ["Pure Gir lineage", "A2 certified", "Docile temperament"],
+    "description": "Gentle Gauri is a pure Gir cow known for steady A2 milk and a calm nature.",
+    "availableForAdoption": true,
+    "status": "healthy"
+  },
+  {
+    "id": "cow-lakshmi",
+    "name": "Lakshmi",
+    "breed": "Gir",
+    "ageYears": 5,
+    "milkYieldLabel": "14 L/day",
+    "image": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=600&h=700&fit=crop",
+    "traits": ["Award-winning lineage", "High butterfat", "Excellent health"],
+    "description": "Lakshmi produces rich milk and thrives on organic fodder at our gaushala.",
+    "availableForAdoption": true,
+    "status": "healthy"
+  },
+  {
+    "id": "cow-radha",
+    "name": "Radha",
+    "breed": "Gir",
+    "ageYears": 3,
+    "milkYieldLabel": "10 L/day",
+    "image": "https://images.unsplash.com/photo-1679798922227-9c4678d2c5a2?w=600&h=700&fit=crop",
+    "traits": ["Young & healthy", "Organic feed", "Regular vet care"],
+    "description": "Young Radha is growing strong with daily care and veterinary monitoring.",
+    "availableForAdoption": true,
+    "status": "healthy"
+  },
+  {
+    "id": "cow-saraswati",
+    "name": "Saraswati",
+    "breed": "Gir",
+    "ageYears": 6,
+    "milkYieldLabel": "15 L/day",
+    "image": "https://images.unsplash.com/photo-1604881991720-f8add5f1f50a?w=600&h=700&fit=crop",
+    "traits": ["Senior matriarch", "Mother of 3 calves", "Gentle nature"],
+    "description": "Saraswati is the matriarch of our herd — wise, gentle, and deeply loved.",
+    "availableForAdoption": true,
+    "status": "healthy"
+  }
+]

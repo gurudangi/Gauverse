@@ -1,0 +1,72 @@
+[
+  {
+    "sku": "FEED-GREEN-001",
+    "name": "Green fodder bale",
+    "category": "feed",
+    "unit": "kg",
+    "quantityOnHand": 240,
+    "reorderLevel": 50,
+    "location": "Feed shed",
+    "notes": "Daily herd fodder"
+  },
+  {
+    "sku": "FEED-CONC-001",
+    "name": "Cattle concentrate",
+    "category": "feed",
+    "unit": "kg",
+    "quantityOnHand": 120,
+    "reorderLevel": 30,
+    "location": "Feed shed",
+    "notes": ""
+  },
+  {
+    "sku": "MED-FMD-001",
+    "name": "FMD vaccine vials",
+    "category": "medicine",
+    "unit": "vial",
+    "quantityOnHand": 40,
+    "reorderLevel": 10,
+    "location": "Medicine cabinet",
+    "notes": "Keep refrigerated"
+  },
+  {
+    "sku": "MED-ANTB-001",
+    "name": "Broad-spectrum antibiotic",
+    "category": "medicine",
+    "unit": "pack",
+    "quantityOnHand": 8,
+    "reorderLevel": 5,
+    "location": "Medicine cabinet",
+    "notes": "Vet supervised use only"
+  },
+  {
+    "sku": "PKG-BOTTLE-001",
+    "name": "1L milk bottles",
+    "category": "packaging",
+    "unit": "pcs",
+    "quantityOnHand": 500,
+    "reorderLevel": 100,
+    "location": "Packaging room",
+    "notes": ""
+  },
+  {
+    "sku": "CLN-PHENYL-001",
+    "name": "Farm disinfectant",
+    "category": "cleaning",
+    "unit": "litre",
+    "quantityOnHand": 25,
+    "reorderLevel": 8,
+    "location": "Cleaning store",
+    "notes": ""
+  },
+  {
+    "sku": "OFF-PAPER-001",
+    "name": "A4 paper ream",
+    "category": "office",
+    "unit": "ream",
+    "quantityOnHand": 12,
+    "reorderLevel": 3,
+    "location": "Office",
+    "notes": ""
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prod-milk",
+    "name": "Fresh A2 Gir Milk",
+    "price": 80,
+    "priceLabel": "₹80/L",
+    "unit": "litre",
+    "description": "Pure, unadulterated A2 milk from indigenous Gir cows. Delivered fresh daily.",
+    "image": "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=500&h=400&fit=crop",
+    "badge": "Bestseller",
+    "stock": 200
+  },
+  {
+    "id": "prod-ghee",
+    "name": "Desi Ghee",
+    "price": 1200,
+    "priceLabel": "₹1,200/kg",
+    "unit": "kg",
+    "description": "Traditional bilona method ghee with rich aroma and golden color.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500&h=400&fit=crop",
+    "badge": "Premium",
+    "stock": 50
+  },
+  {
+    "id": "prod-paneer",
+    "name": "Fresh Paneer",
+    "price": 400,
+    "priceLabel": "₹400/kg",
+    "unit": "kg",
+    "description": "Soft, chemical-free paneer made from our farm-fresh A2 milk.",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&h=400&fit=crop",
+    "badge": null,
+    "stock": 30
+  },
+  {
+    "id": "prod-panchgavya",
+    "name": "Panchgavya Kit",
+    "price": 599,
+    "priceLabel": "₹599",
+    "unit": "kit",
+    "description": "Complete Panchgavya set — milk, ghee, curd, dung cakes & urine for rituals.",
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b2f9?w=500&h=400&fit=crop",
+    "badge": "Sacred",
+    "stock": 40
+  },
+  {
+    "id": "prod-curd",
+    "name": "A2 Curd",
+    "price": 60,
+    "priceLabel": "₹60/200g",
+    "unit": "pack",
+    "description": "Thick, probiotic-rich curd set naturally from A2 milk.",
+    "image": "https://images.unsplash.com/photo-1488477181941-7818f194cecd?w=500&h=400&fit=crop",
+    "badge": null,
+    "stock": 60
+  },
+  {
+    "id": "prod-dung",
+    "name": "Cow Dung Cakes",
+    "price": 150,
+    "priceLabel": "₹150/10 pcs",
+    "unit": "pack",
+    "description": "Sun-dried, eco-friendly dung cakes for havan and organic farming.",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&h=400&fit=crop",
+    "badge": "Eco",
+    "stock": 100
+  }
+]

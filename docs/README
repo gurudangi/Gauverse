@@ -1,0 +1,504 @@
+# README.md
+
+# Shri Ahilyamata Gaushala Digital Management Platform
+
+> **AI-First Documentation Repository**
+>
+> This repository serves as the **single source of truth** for the complete design, architecture, business requirements, and implementation of the **Shri Ahilyamata Gaushala Digital Management Platform**.
+>
+> This documentation is specifically written for **Cursor AI** and software developers so the platform can be built in a structured, production-ready manner.
+
+---
+
+# Document Information
+
+| Property           | Value                                                |
+| ------------------ | ---------------------------------------------------- |
+| Project Name       | Shri Ahilyamata Gaushala Digital Management Platform |
+| Version            | 1.0                                                  |
+| Documentation Type | AI-First Software Documentation                      |
+| Architecture       | MERN Monorepo                                        |
+| Prepared For       | Cursor AI & Development Team                         |
+| Status             | Planning Phase                                       |
+
+---
+
+# Project Overview
+
+The objective of this project is to digitally transform **Shri Ahilyamata Gaushala J M Indore** into a modern, scalable platform that manages:
+
+* Public Website
+* Dairy Product Sales
+* Donations
+* Cow Adoption
+* Customer Management
+* Farm Operations
+* Inventory
+* Milk Production
+* Employee Management
+* Analytics
+* AI Assistance
+
+This is **not** a simple website.
+
+It is a complete digital ecosystem for managing the entire Gaushala.
+
+---
+
+# Vision
+
+Build India's most advanced digital platform for Gaushalas by integrating:
+
+* Digital Presence
+* E-Commerce
+* Farm ERP
+* CRM
+* Donation Platform
+* AI Assistant
+* Analytics
+* Customer Portal
+* Employee Portal
+
+into one unified platform.
+
+---
+
+# Core Objectives
+
+* Increase online visibility.
+* Simplify donation management.
+* Enable online cow adoption.
+* Sell dairy and Panchgavya products online.
+* Digitize farm operations.
+* Improve inventory management.
+* Track milk production.
+* Improve transparency with donors.
+* Build long-term customer relationships.
+* Create a scalable platform that can later support multiple Gaushalas.
+
+---
+
+# Target Users
+
+## Public Visitors
+
+* Learn about the Gaushala
+* Purchase products
+* Donate
+
+* Read educational content
+* Register for events
+
+---
+
+## Customers
+
+* Purchase products
+* Manage subscriptions
+* Track orders
+* Download invoices
+* View donation history
+* Access certificates
+
+---
+
+
+
+## Volunteers
+
+* Register
+* View activities
+* Manage participation
+* Receive certificates
+
+---
+
+## Admins
+
+* Manage products
+* Manage donations
+* Manage inventory
+* Manage staff
+* Manage customers
+* Generate reports
+* View analytics
+
+---
+
+## Farm Staff
+
+* Manage cow records
+* Record milk production
+* Update health records
+* Record vaccinations
+* Manage feed
+* Record daily activities
+
+---
+
+# Project Scope
+
+The project consists of four independent portals that share a common backend.
+
+```
+Public Website
+
+↓
+
+Customer Portal
+
+↓
+
+Admin Portal
+
+↓
+
+Farm Staff Portal
+```
+
+---
+
+# Portal Overview
+
+## 1. Public Website
+
+Purpose
+
+Public awareness and customer acquisition.
+
+Modules
+
+* Home
+* About
+* Products
+
+
+* Events
+* Gallery
+* Blogs
+* Contact
+
+---
+
+## 2. Customer Portal
+
+Purpose
+
+Customer self-service.
+
+Modules
+
+* Dashboard
+* Orders
+
+* Wishlist
+* Profile
+
+---
+
+## 3. Admin Portal
+
+Purpose
+
+Business management.
+
+Modules
+
+* Dashboard
+* Products
+* Categories
+* Orders
+* Customers
+* Inventory
+* Staff
+* Analytics
+* Settings
+
+---
+
+## 4. Farm Staff Portal
+
+Purpose
+
+Daily farm operations.
+
+Modules
+
+* Cow Records
+* Milk Production
+* Health
+* Vaccination
+* Feed
+* Medicine
+* Expenses
+* Reports
+
+---
+
+# Technology Stack
+
+## Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Shadcn UI
+* React Router
+* React Query
+* React Hook Form
+* Zod
+
+---
+
+## Backend
+
+* Node.js
+* Express.js
+* TypeScript
+* MongoDB
+* Mongoose
+* JWT Authentication
+* Redis
+* BullMQ
+* Node Cron
+
+---
+
+## Cloud
+
+* AWS EC2
+* MongoDB Atlas
+* Redis Cloud
+* Cloudinary
+* GitHub Actions
+* Docker
+* Nginx
+
+---
+
+# Documentation Structure
+
+This repository must be read in the following order.
+
+```
+README.md
+
+↓
+
+PROJECT_OVERVIEW.md
+
+↓
+
+BUSINESS_REQUIREMENTS.md
+
+↓
+
+FEATURE_REQUIREMENTS.md
+
+↓
+
+DATABASE.md
+
+↓
+
+API.md
+
+↓
+
+UI_GUIDELINES.md
+
+↓
+
+IMPLEMENTATION_GUIDE.md
+
+↓
+
+CODING_STANDARDS.md
+
+↓
+
+MASTER_PROMPT.md
+```
+
+Never skip documents.
+
+---
+
+# Development Principles
+
+The platform must follow:
+
+* Clean Architecture
+* SOLID Principles
+* DRY
+* KISS
+* Repository Pattern
+* Service Layer Pattern
+* Feature-based Folder Structure
+
+---
+
+# Coding Standards
+
+* TypeScript only
+* Functional Components
+* Reusable Components
+* No duplicate code
+* No inline styles
+* Tailwind CSS only
+* Environment variables for configuration
+* Strict typing
+* ESLint + Prettier
+
+---
+
+# AI Development Rules
+
+Cursor AI must:
+
+* Read every document before implementation.
+* Never generate placeholder code.
+* Never skip implementation phases.
+* Build reusable components.
+* Write production-ready code.
+* Explain architectural decisions.
+* Wait for review before proceeding to the next phase.
+
+---
+
+# Implementation Phases
+
+## Phase 1
+
+* Project setup
+* Monorepo
+* Authentication
+* Shared UI
+* Shared utilities
+
+---
+
+## Phase 2
+
+Public Website
+
+---
+
+## Phase 3
+
+Customer Portal
+
+---
+
+## Phase 4
+
+Admin Portal
+
+---
+
+## Phase 5
+
+Farm Staff Portal
+
+---
+
+## Phase 6
+
+AI Features
+
+---
+
+## Phase 7
+
+Optimization
+
+* Performance
+* Security
+* Testing
+* Deployment
+
+---
+
+# Repository Structure
+
+```
+Ahilyamata-Gaushala-Documentation/
+
+README.md
+
+PROJECT_OVERVIEW.md
+
+BUSINESS_REQUIREMENTS.md
+
+FEATURE_REQUIREMENTS.md
+
+DATABASE.md
+
+API.md
+
+UI_GUIDELINES.md
+
+IMPLEMENTATION_GUIDE.md
+
+CODING_STANDARDS.md
+
+MASTER_PROMPT.md
+
+diagrams/
+
+ERD.drawio
+
+Architecture.drawio
+
+Sequence.drawio
+```
+
+---
+
+# Cursor AI Workflow
+
+For every development phase:
+
+1. Read all prerequisite documents.
+2. Explain understanding.
+3. Create/update folder structure.
+4. Define database changes.
+5. Define API contracts.
+6. Implement backend.
+7. Implement frontend.
+8. Write tests.
+9. Document changes.
+10. Stop and wait for review.
+
+---
+
+# Success Criteria
+
+The project is considered successful when:
+
+* All four portals are production-ready.
+* The codebase is modular and maintainable.
+* Every feature is documented.
+* The platform is fully responsive.
+* APIs are secure.
+* Performance targets are met.
+* Documentation remains synchronized with the implementation.
+
+---
+
+# Next Document
+
+After completing this README, proceed to:
+
+```
+PROJECT_OVERVIEW.md
+```
+
+This document defines the complete business vision, goals, scope, stakeholders, product philosophy, and long-term roadmap for the Shri Ahilyamata Gaushala Digital Management Platform.
+
+---
+
+© 2026 Shri Ahilyamata Gaushala Digital Management Platform Documentation
+
+Version 1.0

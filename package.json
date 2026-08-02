@@ -1,0 +1,14 @@
+{
+  "name": "gauverse",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@gauverse/api & npm run dev --workspace=@gauverse/web",
+    "dev:web": "npm run dev --workspace=@gauverse/web",
+    "dev:api": "npm run dev --workspace=@gauverse/api",
+    "build": "npm run build --workspace=@gauverse/api && npm run build --workspace=@gauverse/web",
+    "smoke": "node scripts/smoke-all.mjs"
+  }
+}
